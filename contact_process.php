@@ -71,7 +71,7 @@ $mail->Password = 'CCM951789';
 $mail->setFrom('info@cursocirugiamamaria.com', 'Hospital Rawson');
 
 $mail->addReplyTo('info@cursocirugiamamaria.com','Hospital Rawson');
-$mail->addAddress('sprados@chimpancedigital.com.ar','Hospital Rawson');
+$mail->addAddress('sdesigncba@gmail.com','Hospital Rawson');
 // $mail->addCc('ralseff@chimpancedigital.com.ar','chimpance');
 $mail->isHTML(true);
 $mail->Subject = $email_subject;
