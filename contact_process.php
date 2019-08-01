@@ -55,7 +55,7 @@ $mail->isSMTP();
 $mail->SMTPDebug = 2;
 $mail->Debugoutput = 'html';
 
-$mail->Host = 'smtp.cursocirugiamamaria.com';
+$mail->Host = 'mail.cursocirugiamamaria.com';
 $mail->Port = 2525;
 $mail->SMTPSecure = '';
 $mail->SMTPAuth = true;
