@@ -14,7 +14,7 @@ $email = $_REQUEST['email'];
 $msj = $_REQUEST['consulta'];
 
 
-$email_subject = "Consulta campaña Ralseff marzo";
+$email_subject = "Consulta campaña Cirugía Mamaria";
 
 // Aquí se deberían validar los datos ingresados por el usuario
 if(!isset($_POST['name']) ||
