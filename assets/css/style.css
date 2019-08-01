@@ -1,0 +1,225 @@
+@import url('<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700&display=swap" rel="stylesheet">');
+
+@font-face {
+    font-family: 'Futura';
+    src: url(../fonts/futuram.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Futura';
+    src: url(../fonts/futurab.ttf);
+    font-weight: 800;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans'
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Futura';
+    font-weight: 800
+}
+
+.color-verder{color:#008075!important;}
+.logos-navbar{ height: 70px;}
+
+.hero{background: url(../images/banner-inicio.png);background-size: cover;background-repeat: no-repeat;font-family: 'Futura'; }
+.hero p{font-weight: 800; color: #3DCBC6;font-size: 30px;}
+.hero h1 {font-weight: 800; color: #008075;font-size: 50px;}
+.input-group {
+    background: white;
+    padding: 3px 9px;
+    border-radius: 100px;
+    box-shadow: inset 0px 2px 4px 2px #c3cfe2a3;
+    /* border: 3px solid; */
+}
+.input-group.textarea {
+
+    border-radius: 30px;
+
+}
+.form-control {
+    border: 0px solid #ced4da;
+    height: calc(2.25rem + 12px);
+    background: rgba(255, 255, 255, 0);
+}
+.input-group-text {
+    background-color: transparent;
+    border: 0px solid #ced4da;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff0;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgba(0,123,255,.25);
+}
+.form {
+    background: #F7F7F7;
+    padding: 64px 40px 40px 40px;
+    border-radius: 35px;
+    box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.24);
+    margin-top: 35px;
+}
+.btn-primary {
+    color: #fff;
+    background: linear-gradient(to right, #5AAFA5, #008075);
+    border-color: #007bff00;
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background: linear-gradient(to left, #5AAFA5, #008075);
+    border-color: #007bff00;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0px solid transparent;
+    padding: .75rem 2.0rem;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    border-radius: 2.5rem;
+    transition: background .3s ease-in-out;
+}
+
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+}
+.btn-link.focus, .btn-link:focus {
+    text-decoration:none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.btn-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.head-form {
+    background: linear-gradient(to left, #5AAFA5, #008075);
+    padding: 20px;
+    width: fit-content;
+    border-radius: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+.sub-form::before{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background: linear-gradient(to left, #5AAFA5, #008075);
+    left: 50%;
+    transform: translateX(-153px);
+    top: 50%;
+}
+.sub-form::after{
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background: linear-gradient(to left, #5AAFA5, #008075);
+    right: 50%;
+    transform: translateX(153px);
+    top: 50%;
+}
+
+/* CURSO */
+.curso{
+    padding: 80px 0;
+    background-color: #EBF4F5;
+    border-bottom: 15px solid #008075;
+}
+
+.img-curso{height: 70px;margin-bottom: 30px}
+ul {
+    color: #008075;
+    padding-left: 22px;
+}
+.btn-warning {
+    color: #ffffff;
+    background-color: #F6921E;
+    border-color: #F6921E;
+    font-weight: 800;
+}
+
+/* ORGANIZAN */
+
+.shadow {
+    position: relative;
+    margin: 3em auto;
+    padding-top: 2em;
+    width: 400px;
+    height: 14px;
+    border: 0px solid #777777;
+    border-radius: 5px;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 25px 0 rgba(50,50,50,0) inset!important;
+  }
+  
+  .shadow:after {
+    content: "";
+    position: relative;
+  }
+  
+  .curved:after, .curved-2:after {
+    position: relative;
+    z-index: -2;
+  }
+  
+  .curved:after {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    right: 12px;
+    bottom: 0;
+    box-shadow: 0 0px 10px 7px rgba(100,100,100,0.3);
+    border-radius: 450px / 15px
+  }
+.logos-organizan{height: 66px;}
+.org-texto{color: #989898; font-size: 14px}
+.card-header {
+    padding: .2rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #008075;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: white;
+}
+
+/* CTA */
+
+.cta{
+    padding: 100px 0;
+    background-image: url(../images/bg-cta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 15px solid #008075;
+}
+
+.cta-fixed{    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transform: scale(.6);}

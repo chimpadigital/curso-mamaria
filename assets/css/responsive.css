@@ -1,0 +1,50 @@
+@media (max-width:768px){
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero p {
+        font-size: 20px;
+    }
+    .inicio{width: 30px;}
+    .h2, h2 {
+        font-size: 1.5rem;
+    }
+    .h3, h3 {
+        font-size: 1.4rem;
+    }
+    .h4, h4 {
+        font-size: 1.3rem;
+    }
+    .sub-form::before {
+        transform: translateX(-138px);
+    }
+    .sub-form::after {
+        transform: translateX(138px);
+    }
+    .hero {
+        padding-bottom: 80px!important;
+        background-position: 43%;
+    }
+    .img-curso {
+        height: 60px;
+    }
+    ul {
+
+        list-style: none;
+    }
+    .logos-organizan {
+        height: 50px;
+        margin-top: 20px;
+    }
+    .card-body {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        padding: 3.25rem;
+    }
+    .cta-fixed {
+        position: fixed;
+        bottom: 0px;
+        right: 50%;
+        transform: scale(.6) translateX(80%);
+    }
+}

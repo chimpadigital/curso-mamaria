@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CURSO PRÁCTICO - TEÓRICO | Cirugía Mamaria Oncológica, Oncoplástica y Reconstructiva</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    
+</head>
+<body>
+        <nav class="site-header sticky-top py-1 bg-white">
+          <div class="container d-flex flex-column flex-md-row justify-content-between">
+            <div class="row">
+              <div class="col-lg-3 col-4">
+                  <img src="assets/images/hospital-rawson.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-4 d-none d-lg-block d-md-block"></div>
+              <div class="col-lg-2 col-3">
+                  <img src="assets/images/salud.png" class="img-fluid" alt="">
+              </div>
+              <div class="col-lg-3 col-5">
+                    <img src="assets/images/logo-cba.png" class="img-fluid" alt="">
+              </div>
+
+            </div>
+
+            <a class="py-2 d-none d-md-inline-block ml-5" href="#">
+            </a>
+            <a class="py-2 d-none d-md-inline-block text-right" href="#">
+            </a>
+
+          </div>
+        </nav>
+    
+        <div class="position-relative overflow-hidden p-3 p-md-5 bg-light hero" id="hero">
+          <div class="container">
+            <div class="row">
+              <div class="text-center col-12 p-lg-5 my-5">
+                <h1 class="">Muchas Gracias</h1>
+                <p class="text-dark">Nos contactaremos a la brevedad </p>
+              </div>
+             
+             
+            </div>
+          </div>
+        </div>
+    
+        
+      
+
+        <footer class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-6 text-lg-left text-center">
+                <img src="assets/images/hospital-rawson.png" class="img-fluid w-50 mb-4 mb-lg-0 mb-md-0" alt="">
+            </div>
+            <div class="col-12 col-md-6 text-lg-right text-center my-auto">
+                <hp><i class="fas fa-map-marker-alt color-verder"></i> Bajada Pucará 2025. CP: X5000KFB. Córdoba, Argentina</hp> 
+            </div>
+            
+          </div>
+        </footer>
+    
+        <div class="cta-fixed mt-5">
+            <a class="btn btn-warning text-white" href="#hero"> <i class="fa fa-comment"></i> Consultar</a>
+        </div>
+        <!-- Bootstrap core JavaScript-->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script>
+          $(document).ready(function(){
+              // Add minus icon for collapse element which is open by default
+              $(".collapse.show").each(function(){
+                $(this).prev(".card-header").find(".fa").addClass("fa-minus").removeClass("fa-plus");
+              });
+              
+              // Toggle plus minus icon on show hide of collapse element
+              $(".collapse").on('show.bs.collapse', function(){
+                $(this).prev(".card-header").find(".fa").removeClass("fa-plus").addClass("fa-minus");
+              }).on('hide.bs.collapse', function(){
+                $(this).prev(".card-header").find(".fa").removeClass("fa-minus").addClass("fa-plus");
+              });
+          });
+      </script>
+      <!--================================================== -->
+        
+      
+ 
+</body>
+
+</html>
