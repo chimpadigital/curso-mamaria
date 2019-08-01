@@ -55,10 +55,17 @@ $mail->isSMTP();
 $mail->SMTPDebug = 2;
 $mail->Debugoutput = 'html';
 
-$mail->Host = 'mail.cursocirugiamamaria.com';
+$mail->Host = 'silex14web.com';
 $mail->Port = 2525;
-$mail->SMTPSecure = '';
+// $mail->SMTPSecure = '';
 $mail->SMTPAuth = true;
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+);
 $mail->Username = 'info-cursocirugiamamaria.com';
 $mail->Password = 'CCM951789';
 $mail->setFrom('info@cursocirugiamamaria.com', 'Hospital Rawson');
